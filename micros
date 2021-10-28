@@ -1,0 +1,102 @@
+MICROservice Tools, 
+istio
+kiali
+jaeger
+graalVM
+
+Principles of microservices
+- Highly observable
+- Modelled around business domains
+- Culture if automation
+- Hide implementations details
+- decentralise all the things
+- Deploy independently
+- Isolate failure
+
+
+Microservices
+- Load balancing
+- Gateways
+- Event driven system ( “Designing Event-Driven Systems” ) 
+
+
+Service Mesh using istio 
+- Telemtry
+- Circuit breaking
+- api gateways
+
+Points to consider while choosing microservices
+- are you a startup? dont choose it.
+- is your project/app needs a big team or need to be taken care well due to scaling big.!! choose microservices
+
+What to consider for the microservices runnning better?
+- latency
+- programming languages
+- Styles, protocols and methods of micro service communication
+- synchronous and async communication
+
+
+
+Extreme Measures
+
+
+
+DRY and the Perils of Code Reuse
+Sharing Code Via Libraries-- 
+Tailored service template to help bootstrap new service creation..
+
+
+Client Libraries
+- for your users to use it.
+
+
+
+Define semantic versioning
+Define the schema to be selected
+Select schema comparision tools
+Define consumer driven contract testing
+Client library testing ( automated or part of testing as a add-on customer support for the services )
+Define managing the breaking changes
+
+
+
+Building micro frontends
+
+Backends for Frontends (BFF)
+
+Single page app implementations -- 
+progressive app technique
+isomorphic technique
+- CDNs like Akamai, Fastly, or Cloudfront 
+
+
+JAMStack
+Famous solutions like Gatsby.js, Next.js or Nuxt.js.
+
+Principles-- 
+same as mircoservices
+- Highly observable
+- Modelled around business domains  -> Use DDD principle - domain driven development
+- Culture of automation -> Automate all using CI/CD
+- Hide implementations details -> hiding failure is required during micro-frontend tile fails to retrieve details
+- decentralise all the things
+- Deploy independently -> deploy at anytime without dependence
+- Isolate failure -> 
+
+
+
+Structure a micro-frontends project from an architectural point of view and the key technical challenges to understand when we design our frontend applications using micro-frontends
+
+
+Domain-Driven Design with Micro-Frontends
+bounded context: a logical boundary
+
+
+https://github.com/MicrosoftDocs/architecture-center/blob/master/docs/solution-ideas/articles/devops-in-a-hybrid-environment.md
+
+https://github.com/MrRameshRajendran/Hybrid_MultiCloud_Overlay
+
+https://github.com/Ompragash/Hybrid-Cloud-Automation-Using-Ansible-ManageIQ
+
+https://github.com/MicrosoftDocs/cloud-adoption-framework/blob/master/docs/ready/considerations/hybrid-consistency.md
+
